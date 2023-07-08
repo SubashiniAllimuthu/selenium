@@ -18,6 +18,7 @@ public class Day2 {
 	driver.findElement(By.id("continue")).click();
 	driver.findElement(By.id("ap_password")).sendKeys("Kishona@aug04");
 	driver.findElement(By.id("signInSubmit")).click();
+	System.out.println("This testing has been completed");
 	
 	
 	}
